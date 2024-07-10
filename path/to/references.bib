@@ -200,41 +200,47 @@
   doi    = "10.5281/zenodo.10460537"
 }
 
-@ARTICLE{Kim2023-gx,
-  title    = "Foldcomp: a library and format for compressing and indexing large
-              protein structure sets",
-  author   = "Kim, Hyunbin and Mirdita, Milot and Steinegger, Martin",
-  abstract = "SUMMARY: Highly accurate protein structure predictors have
-              generated hundreds of millions of protein structures; these pose
-              a challenge in terms of storage and processing. Here, we present
-              Foldcomp, a novel lossy structure compression algorithm, and
-              indexing system to address this challenge. By using a combination
-              of internal and Cartesian coordinates and a bi-directional
-              NeRF-based strategy, Foldcomp improves the compression ratio by a
-              factor of three compared to the next best method. Its
-              reconstruction error of 0.08 {\AA} is comparable to the best
-              lossy compressor. It is five times faster than the next fastest
-              compressor and competes with the fastest decompressors. With its
-              multi-threading implementation and a Python interface that allows
-              for easy database downloads and efficient querying of protein
-              structures by accession, Foldcomp is a powerful tool for managing
-              and analysing large collections of protein structures.
-              AVAILABILITY AND IMPLEMENTATION: Foldcomp is a free open-source
-              software (GPLv3) and available for Linux, macOS, and Windows at
-              https://foldcomp.foldseek.com. Foldcomp provides the AlphaFold
-              Swiss-Prot (2.9GB), TrEMBL (1.1TB), and ESMatlas HQ (114GB)
-              database ready-for-download.",
-  journal  = "Bioinformatics",
-  volume   =  39,
-  number   =  4,
+@ARTICLE{Rives2021-ym,
+  title    = "Biological structure and function emerge from scaling
+              unsupervised learning to 250 million protein sequences",
+  author   = "Rives, Alexander and Meier, Joshua and Sercu, Tom and Goyal,
+              Siddharth and Lin, Zeming and Liu, Jason and Guo, Demi and Ott,
+              Myle and Zitnick, C Lawrence and Ma, Jerry and Fergus, Rob",
+  abstract = "In the field of artificial intelligence, a combination of scale
+              in data and model capacity enabled by unsupervised learning has
+              led to major advances in representation learning and statistical
+              generation. In the life sciences, the anticipated growth of
+              sequencing promises unprecedented data on natural sequence
+              diversity. Protein language modeling at the scale of evolution is
+              a logical step toward predictive and generative artificial
+              intelligence for biology. To this end, we use unsupervised
+              learning to train a deep contextual language model on 86 billion
+              amino acids across 250 million protein sequences spanning
+              evolutionary diversity. The resulting model contains information
+              about biological properties in its representations. The
+              representations are learned from sequence data alone. The learned
+              representation space has a multiscale organization reflecting
+              structure from the level of biochemical properties of amino acids
+              to remote homology of proteins. Information about secondary and
+              tertiary structure is encoded in the representations and can be
+              identified by linear projections. Representation learning
+              produces features that generalize across a range of applications,
+              enabling state-of-the-art supervised prediction of mutational
+              effect and secondary structure and improving state-of-the-art
+              features for long-range contact prediction.",
+  journal  = "Proc. Natl. Acad. Sci. U. S. A.",
+  volume   =  118,
+  number   =  15,
   month    =  apr,
-  year     =  2023,
-  url      = "http://dx.doi.org/10.1093/bioinformatics/btad153",
+  year     =  2021,
+  url      = "http://dx.doi.org/10.1073/pnas.2016239118",
+  keywords = "deep learning; generative biology; protein language model;
+              representation learning; synthetic biology",
   language = "en",
-  issn     = "1367-4803, 1367-4811",
-  pmid     = "36961332",
-  doi      = "10.1093/bioinformatics/btad153",
-  pmc      = "PMC10085514"
+  issn     = "0027-8424, 1091-6490",
+  pmid     = "33876751",
+  doi      = "10.1073/pnas.2016239118",
+  pmc      = "PMC8053943"
 }
 
 @UNPUBLISHED{Matthews2023-ft,
@@ -4219,6 +4225,43 @@
   pmid     = "37140036",
   doi      = "10.1093/nar/gkad344",
   pmc      = "PMC10320115"
+}
+
+@ARTICLE{Kim2023-gx,
+  title    = "Foldcomp: a library and format for compressing and indexing large
+              protein structure sets",
+  author   = "Kim, Hyunbin and Mirdita, Milot and Steinegger, Martin",
+  abstract = "SUMMARY: Highly accurate protein structure predictors have
+              generated hundreds of millions of protein structures; these pose
+              a challenge in terms of storage and processing. Here, we present
+              Foldcomp, a novel lossy structure compression algorithm, and
+              indexing system to address this challenge. By using a combination
+              of internal and Cartesian coordinates and a bi-directional
+              NeRF-based strategy, Foldcomp improves the compression ratio by a
+              factor of three compared to the next best method. Its
+              reconstruction error of 0.08 {\AA} is comparable to the best
+              lossy compressor. It is five times faster than the next fastest
+              compressor and competes with the fastest decompressors. With its
+              multi-threading implementation and a Python interface that allows
+              for easy database downloads and efficient querying of protein
+              structures by accession, Foldcomp is a powerful tool for managing
+              and analysing large collections of protein structures.
+              AVAILABILITY AND IMPLEMENTATION: Foldcomp is a free open-source
+              software (GPLv3) and available for Linux, macOS, and Windows at
+              https://foldcomp.foldseek.com. Foldcomp provides the AlphaFold
+              Swiss-Prot (2.9GB), TrEMBL (1.1TB), and ESMatlas HQ (114GB)
+              database ready-for-download.",
+  journal  = "Bioinformatics",
+  volume   =  39,
+  number   =  4,
+  month    =  apr,
+  year     =  2023,
+  url      = "http://dx.doi.org/10.1093/bioinformatics/btad153",
+  language = "en",
+  issn     = "1367-4803, 1367-4811",
+  pmid     = "36961332",
+  doi      = "10.1093/bioinformatics/btad153",
+  pmc      = "PMC10085514"
 }
 
 @ARTICLE{Lorenzi2019-ei,
